@@ -1,6 +1,6 @@
         //1 задание
         fun main() {
-        print("Введите ваш уровень: ")
+        println("Введите ваш уровень: ")
         val level = readln().toInt()
         val (status, bonus) = when {
         level < 10 -> "Новичок" to 10
